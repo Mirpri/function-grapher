@@ -1,4 +1,4 @@
 # Function-grapher
 As the name suggests.
 Enter python expression to get function image.<br>
-![image](https://github.com/Mirpri/Function-grapher/blob/main/screenshot.png)
+![image](https://user-images.githubusercontent.com/71537369/152919185-f3c8bf08-894d-481d-86a2-57a6f14e1b37.png)
