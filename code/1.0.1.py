@@ -107,8 +107,6 @@ def adddt(l,r,vl,vr,func,a,gap,dtmin,color):
         ym=int(250-zoomy*y)
     except:
         ym=250
-    #if ym>vl and ym>vr and ym>500 or ym<vl and ym<vr and ym<0:
-     #   return
     if ym>=0 and ym<=500:
         pygame.draw.circle(screen, (color), (int(m), ym), 1)
     #print(l,m,r,vl,vr)
@@ -127,8 +125,9 @@ def draw(func,a,wait,color):
     for i in range(-250, 250):
         x = zoomx*i
         try:
-            y = eval(func)  # 解析式
+            y = eval(func)
             '''
+            !this appeared in 1.0
             if abs(y)>=100000:
                 pygame.draw.circle(screen, (255,0,0), (400, 400), 20)
                 return
@@ -205,6 +204,7 @@ root.mainloop()
 
 #(a*x-1)/(a*x**2+4*a*x+a)
 #math.sin(a/x)
-#pyinstaller -F grapher1.0.py -w -i C:\Users\jcliu\Desktop\vscode\383136_function_icon.ico
+
+#pyinstaller -F grapher xx.py -w -i C:\Users\...
 
 
