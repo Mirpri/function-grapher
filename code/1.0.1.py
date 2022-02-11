@@ -2,7 +2,6 @@ import pygame
 import time
 import tkinter
 from tkinter import *
-from tkinter import messagebox
 import math
 import _thread
 import random
